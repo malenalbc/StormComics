@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Storm Comics</string>
+    <string name="title_superhero_detail">Comic Detail</string>
+
+    <string name="issue_number">Issue #%02d</string>
+    <string name="pages_number">%02d pages</string>
+    <string name="no_description">(There\'s no description for this comic)</string>
+</resources>

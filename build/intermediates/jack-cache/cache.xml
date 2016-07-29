@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/malenal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-24.1.1-c596761d190b90e0d627dc1225f8354c947100bf.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        revision="24.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okio-1.8.0-02d9bf6099d81dc1956a5517dd7c2830257f9506.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        revision="24.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okhttp-3.3.0-7aa3d7f8aede920de8d70f45093941f2f419e510.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-5aba8b25e08dfe3e893dd7331fc00282583fce77.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        revision="24.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/converter-gson-2.1.0-0be9e603e6e210b1e3fc3368fa87c28cf0f2f3eb.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-de02683e1c128285865eb59a976dd81c4e4d37d2.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        revision="24.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/retrofit-2.1.0-7359efb3f328e4ca3289cfaae4b4096bac2083ef.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        revision="24.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gson-2.7-4b986b7a0cc3e27e556705948a51b17b20e52778.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9998155332ce1663b69c060be276d5f12687461d.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.1.1/jars/classes.jar"
+        revision="24.0.0"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-7f0f8656b2e1e88af8396d4b0c40b7749e82d74f.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        revision="24.0.0"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/adapter-rxjava-2.1.0-11877cff4009e1b1a3dbced4619794e4a6a74a76.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Library/Android/sdk/platforms/android-24/optional/org.apache.http.legacy.jar"
+        revision="24.0.0"
+        sha1="b633f2991f9d792d29d23312229f27850f519544">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-c72ae126e7d67f48af0f2efcb5a13efa076809e4.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.0/ba14d8b7789efde5ee150eacb297b7237abca39/logging-interceptor-3.3.0.jar"
+        revision="24.0.0"
+        sha1="0ba14d8b7789efde5ee150eacb297b7237abca39">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/logging-interceptor-3.3.0-d58419f6971552f6c40d670fde8ff5b3ba0dca4d.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        revision="24.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-ea5af4f30b30fa70afb2c089c62d8599c473d0c8.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Library/Android/sdk/platforms/android-24/android.jar"
+        revision="24.0.0"
+        sha1="1311cbfaf9f46b5700b213534bccdc789794b057">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-7ee19ad93fc2aab993f15926d17e946e42c32448.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-24.1.1-db96f00df18ed85b7256463644e4c8eefc912bc8.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        revision="24.0.0"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-c99c42b712562463450b7078f8d76656156de09b.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        revision="24.0.0"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/rxjava-1.1.6-63fb9bd89fba47e810bcadf0585cf450ee579088.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-1ccc85ec167d25463b085354a6f19bc887fe1250.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        revision="24.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/picasso-2.5.2-abaebd86976065bf81464ae12438d1e18dec73f3.jar" />
+    </item>
+    <item
+        jar="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/malenal/Documents/Test/SuperHeroTest/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-105f14fb66a36016e68f5330363b2fc62d28e32d.jar" />
+    </item>
+
+</items>

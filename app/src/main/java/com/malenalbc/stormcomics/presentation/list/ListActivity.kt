@@ -8,7 +8,6 @@ import com.malenalbc.stormcomics.R
 import com.malenalbc.stormcomics.core.exAppApptension.viewModel
 import com.malenalbc.stormcomics.core.extension.observe
 import com.malenalbc.stormcomics.core.extension.showImage
-import com.malenalbc.stormcomics.data.model.comic.Comic
 import com.malenalbc.stormcomics.model.CharacterEntity
 import com.malenalbc.stormcomics.model.ComicEntity
 import com.malenalbc.stormcomics.model.DataWrapper
@@ -17,7 +16,6 @@ import com.malenalbc.stormcomics.presentation.detail.DetailActivity
 import com.malenalbc.stormcomics.presentation.detail.DetailTabletFragment
 import kotlinx.android.synthetic.main.activity_item_list.*
 import kotlinx.android.synthetic.main.item_list.*
-import java.util.*
 
 
 /**
@@ -67,7 +65,7 @@ class ListActivity : BaseActivity() {
     }
 
     private fun populateHeader(character: CharacterEntity) {
-        toolbar_layout.title = getString(R.string.app_name);
+        toolbar_layout.title = getString(R.string.app_name)
         img_character.showImage(character.thumbnail)
         txt_description.text = character.description
     }
@@ -113,19 +111,9 @@ class ListActivity : BaseActivity() {
         item_list.adapter = ComicsAdapter(items, onItemClick)
     }
 
-    private fun getRandomImageUrl(comic: Comic): String {
-        val images = comic.images
-        return if (!images.isNullOrEmpty()) {
-            val randomNum = Random().nextInt(images.size)
-            images[randomNum].url
-        } else {
-            ""
-        }
-    }
-
     private fun openDetail(item: ComicEntity, view: View) {
         val intent = Intent(view.context, DetailActivity::class.java).apply {
-            putExtra(DetailTabletFragment.ARG_ITEM, item.id)
+            putExtra(DetailTabletFragment.ARG_ITEM, item)
         }
         view.context.startActivity(intent)
     }
@@ -133,7 +121,7 @@ class ListActivity : BaseActivity() {
     private fun openTabletDetail(item: ComicEntity) {
         val fragment = DetailTabletFragment().apply {
             arguments = Bundle().apply {
-                putString(DetailTabletFragment.ARG_ITEM, item.id.toString())
+                putParcelable(DetailTabletFragment.ARG_ITEM, item)
             }
         }
         supportFragmentManager

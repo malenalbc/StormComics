@@ -9,7 +9,8 @@ data class ComicEntity(
     val id: Int = 0,
     val title: String?,
     val issueNumber: Int = 0,
-    var thumbnailUrl: String?,
+    val thumbnailUrl: String?,
+    val headerUrl: String?,
     val description: String?,
     var url: String?
 ) : Parcelable {
@@ -17,6 +18,7 @@ data class ComicEntity(
         parcel.readInt(),
         parcel.readString(),
         parcel.readInt(),
+        parcel.readString(),
         parcel.readString(),
         parcel.readString(),
         parcel.readString()
@@ -27,15 +29,23 @@ data class ComicEntity(
         comic.title,
         comic.issueNumber,
         comic.thumbnail.getThumbnailUrl("portrait_medium"),
+        comic.thumbnail.getThumbnailUrl("landscape_incredible"),
         comic.description,
         null
-    )
+    ) {
+        comic.urls?.let {
+            if (it.isNotEmpty()) {
+                this.url = it[0].url
+            }
+        }
+    }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeInt(id)
         parcel.writeString(title)
         parcel.writeInt(issueNumber)
         parcel.writeString(thumbnailUrl)
+        parcel.writeString(headerUrl)
         parcel.writeString(description)
         parcel.writeString(url)
     }

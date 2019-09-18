@@ -4,13 +4,14 @@ Test App using the [Marvel Developer API](http://developer.marvel.com/docs) show
 
 ## Basics
 
-- Architecture: 
- - `data` package: Separates the repositories and the data models.
- - `domain` package: `UseCase`s go there, that is, strict business logic of the app. Complex computations should go there (There are none right now, ofc) and any Android dependency should be avoided. ~~(Maybe extract this to a pure Java module someday)~~
- - `ui` package: Following an MVP pattern, views have contracts that present the data, treated to be shown.
+### Architecture: 
+ - `app` module: Views connected to their ViewModels using LiveData.
+ - `data` module: Domain and data layers (UseCases, Repositories) separated in a (pseudo) clean architecture.
+ - Ideally `data` should have no Android dependencies, but we do inject the `Application` for local sources. Separated, it's easier to add to other Android projects of the app (Watch, TV, etc).
+ 
 
-- Libraries
+### Libraries
+ - *dagger* for dependency injection.
  - *retrofit* (& co) for API calls
  - *picasso* for showing images
- - *recycler view* (& co) for pretty card views
- - *rxjava* (&co) for threading (and readability)
+ - *rxjava2* for threading and data combination (A possible TODO would be migrating to coroutines)

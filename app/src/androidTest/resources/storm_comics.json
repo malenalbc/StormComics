@@ -1,0 +1,2890 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2019 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2019 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2019 MARVEL</a>",
+  "etag": "68b2795c622af191fb0270c78d9bcb7d6f0f1b79",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 29,
+    "count": 20,
+    "results": [{
+      "id": 43284,
+      "digitalId": 27990,
+      "title": "Wolverine & the X-Men (2011) #20",
+      "issueNumber": 20,
+      "variantDescription": "",
+      "description": "Storm joins the faculty of the Jean Grey School! But why is Wolverine a clown, Iceman a fire swallower, and Rachel Grey a fortune teller?",
+      "modified": "2017-07-14T10:28:56-0400",
+      "isbn": "",
+      "upc": "75960607566902011",
+      "diamondCode": "SEP120659",
+      "ean": "",
+      "issn": "",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "Frankenstein&rsquo;s Murder Circus comes to town!<ul><li>STORM joins the faculty of the Jean Grey School!</li><li>Wolverine is a clown? Iceman is a fire swallower? Rachel Grey a fortune teller?</li></ul>"
+      }, {
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text": "Storm joins the faculty of the Jean Grey School! But why is Wolverine a clown, Iceman a fire swallower, and Rachel Grey a fortune teller?"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/43284",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/43284/wolverine_the_x-men_2011_20?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/Wolverine-the-X-Men-20/digital-comic/27990?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=27990&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/27990?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/13910",
+        "name": "Wolverine & the X-Men (2011 - 2014)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-11-14T00:00:00-0500"
+      }, {
+        "type": "focDate",
+        "date": "2012-10-31T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-07-16T09:55:42-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-11-14T00:00:00-0500"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/a0/593ebd56a47b4",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/a0/593ebd56a47b4",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/50/508ee78f282d8",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/30/508ee75d82c9e",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/43284/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11463",
+          "name": "Jason Aaron",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11875",
+          "name": "Nick Bradshaw",
+          "role": "penciler (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+          "name": "Virtual Calligr",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+          "name": "Frank D'ARMATA",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+          "name": "Nick Lowe",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/10051",
+          "name": "Steven Sanders",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11052",
+          "name": "STEVEN MARK SANDERS",
+          "role": "inker"
+        }],
+        "returned": 8
+      },
+      "characters": {
+        "available": 10,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/43284/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009175",
+          "name": "Beast"
+        }, {
+          "resourceURI": "http://gateway.marvel.com / v1 / public / characters / 1009208 ",
+          "name ": "Brood "
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8349",
+          "name": "David Lopez Lopez",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+          "name": "Rachelle Rosenberg",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+          "name": "Brian Wood",
+          "role": "writer"
+        }],
+        "returned": 7
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40860/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92544",
+          "name": "X-Men (2010) #36",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92545",
+          "name": "Interior #92545",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40860/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40875,
+      "digitalId": 27650,
+      "title": "X-Men (2010) #35",
+      "issueNumber": 35,
+      "variantDescription": "",
+      "description": "* The X-Men must make a choice...the destruction of a life, or the survival of a weapon.\n* Domino versus Psylocke!",
+      "modified": "2014-07-09T12:54:46-0400",
+      "isbn": "",
+      "upc": "5960607193-03511",
+      "diamondCode": "",
+      "ean": "",
+      "issn": "2162-2124",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "* The X-Men must make a choice...the destruction of a life, or the survival of a weapon.\n* Domino versus Psylocke!"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40875",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40875/x-men_2010_35?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/X-Men-35/digital-comic/27650?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=27650&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/27650?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9906",
+        "name": "X-Men (2010 - 2013)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-09-12T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-08-22T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-07-30T16:32:01-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-09-12T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/70/58b883e079ffc",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/70/58b883e079ffc",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40875/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/9371",
+          "name": "Roland Boschi",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/10433 ",
+          "name ": "Alvaro Lopez ",
+          "role ": "artist "
+        }, {
+          "resourceURI ": "http: //gateway.marvel.com/v1/public/creators/12392",
+          "name": "David Lopez",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11543",
+          "name": "Dan Brown",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/9937",
+          "name": "Jim Charalampidis",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+          "name": "Brian Wood",
+          "role": "writer"
+        }],
+        "returned": 8
+      },
+      "characters": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40875/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009277",
+          "name": "Domino"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011179",
+          "name": "Pixie"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 6
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40875/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92574",
+          "name": "X-Men (2010) #35",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92575",
+          "name": "Interior #92575",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40875/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40149,
+      "digitalId": 27519,
+      "title": "Uncanny X-Men (2011) #17",
+      "issueNumber": 17,
+      "variantDescription": "",
+      "description": "<ul><li>The climactic end to the X-Men&rsquo;s greatest stand against Sinister!</li><li>The culmination of everything Sinister has planned since Uncanny #1!</li></ul>",
+      "modified": "2014-07-29T08:29:20-0400",
+      "isbn": "",
+      "upc": "5960607689-01711",
+      "diamondCode": "",
+      "ean": "",
+      "issn": "2164-6155",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "<ul><li>The climactic end to the X-Men&rsquo;s greatest stand against Sinister!</li><li>The culmination of everything Sinister has planned since Uncanny #1!</li></ul>"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40149",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40149/uncanny_x-men_2011_17?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/Uncanny-X-Men-17/digital-comic/27519?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=27519&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/27519?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/14914",
+        "name": "Uncanny X-Men (2011 - 2012)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-08-22T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-08-01T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-07-31T09:23:51-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-08-22T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/70/5900b261111a9",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/70/5900b261111a9",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 5,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40149/creators",
+        "items": [{
+          "resourceURI ": "http: //gateway.marvel.com/v1/public/creators/1004",
+          "name": "Daniel Acuna",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11309",
+          "name": "Mike Del Mundo",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8901",
+          "name": "Kieron Gillen",
+          "role": "Writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+          "name": "Nick Lowe",
+          "role": "editor"
+        }],
+        "returned": 5
+      },
+      "characters": {
+        "available": 10,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40149/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009257",
+          "name": "Cyclops"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009310",
+          "name": "Emma Frost"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009509",
+          "name": "Madelyne Pryor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+          "name": "Magneto"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009447",
+          "name": "Mister Sinister"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009466",
+          "name": "Namor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 10
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40149/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91095",
+          "name": "Uncanny X-Men (2011) #17",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91096",
+          "name": "Interior #91096",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40149/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40862,
+      "digitalId": 27458,
+      "title": "X-Men (2010) #34",
+      "issueNumber": 34,
+      "variantDescription": "",
+      "description": "- The history of the Proto Mutants is revealed!\n- Mr. Grey makes his move against the X-Men...and it's not what any of them are expecting!\n- Colossus makes a decision that could endanger the entire team.\n- Storm's field agents are kidnapped and a weapon of the X-Men's making goes missing.",
+      "modified": "2014-07-09T12:54:44-0400",
+      "isbn": "",
+      "upc": "5960607193-03411",
+      "diamondCode": "",
+      "ean": "",
+      "issn": "2162-2124",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "- The history of the Proto Mutants is revealed!\n- Mr. Grey makes his move against the X-Men...and it's not what any of them are expecting!\n- Colossus makes a decision that could endanger the entire team.\n- Storm's field agents are kidnapped and a weapon of the X-Men's making goes missing."
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40862",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40862/x-men_2010_34?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/X-Men-34/digital-comic/27458?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=27458&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/27458?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9906",
+        "name": "X-Men (2010 - 2013)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-08-15T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-08-01T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-03-08T14:11:06-0500"
+      }, {
+        "type": "digitalPurchaseDate ",
+        "date ": "2012 - 08 - 15 T00: 00: 00 - 0400 "
+      }],
+      "prices ": [{
+        "type ": "printPrice ",
+        "price ": 3.99
+      }, {
+        "type ": "digitalPurchasePrice ",
+        "price ": 1.99
+      }],
+      "thumbnail ": {
+        "path ": "http: //i.annihil.us/u/prod/marvel/i/mg/3/00/58b882c202a06",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/00/58b882c202a06",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40862/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/9371",
+          "name": "Roland Boschi",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11543",
+          "name": "Dan Brown",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8825",
+          "name": "Jorge Molina",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+          "name": "Brian Wood",
+          "role": "writer"
+        }],
+        "returned": 6
+      },
+      "characters": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40862/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009277",
+          "name": "Domino"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011179",
+          "name": "Pixie"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 6
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40862/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92548",
+          "name": "X-Men (2010) #34",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92549",
+          "name": "Interior #92549",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40862/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40864,
+      "digitalId": 27343,
+      "title": "X-Men (2010) #33",
+      "issueNumber": 33,
+      "variantDescription": "",
+      "description": "<ul><li>The history of the Proto Mutants is revealed!</li><li>Mr. Grey makes his move against the X-Men&hellip;and it&rsquo;s not what any of them are expecting!</li><li>Colossus makes a decision that could endanger the entire team.</li><li>Storm&rsquo;s field agents are kidnapped and a weapon of the X-Men&rsquo;s making goes missing</li></ul>",
+      "modified": "2014-07-09T12:54:38-0400",
+      "isbn": "",
+      "upc": "5960607193-03311",
+      "diamondCode": "",
+      "ean": "",
+      "issn": "2162-2124",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "<ul><li>The history of the Proto Mutants is revealed!</li><li>Mr. Grey makes his move against the X-Men&hellip;and it&rsquo;s not what any of them are expecting!</li><li>Colossus makes a decision that could endanger the entire team.</li><li>Storm&rsquo;s field agents are kidnapped and a weapon of the X-Men&rsquo;s making goes missing</li></ul>"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40864",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40864/x-men_2010_33?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/X-Men-33/digital-comic/27343?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=27343&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/27343?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9906 ",
+        "name ": "X - Men(2010 - 2013)"
+      },
+      "variants ": [],
+      "collections ": [],
+      "collectedIssues ": [],
+      "dates ": [{
+        "type ": "onsaleDate ",
+        "date ": "2012 - 08 - 01 T00: 00: 00 - 0400 "
+      }, {
+        "type ": "focDate ",
+        "date ": "2012 - 07 - 18 T00: 00: 00 - 0400 "
+      }, {
+        "type ": "unlimitedDate ",
+        "date ": "2013 - 03 - 08 T14: 10: 31 - 0500 "
+      }, {
+        "type ": "digitalPurchaseDate ",
+        "date ": "2012 - 08 - 01 T00: 00: 00 - 0400 "
+      }],
+      "prices ": [{
+        "type ": "printPrice ",
+        "price ": 3.99
+      }, {
+        "type ": "digitalPurchasePrice ",
+        "price ": 1.99
+      }],
+      "thumbnail ": {
+        "path ": "http: //i.annihil.us/u/prod/marvel/i/mg/c/e0/58b881bf0f7dd",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/58b881bf0f7dd",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40864/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/10433",
+          "name": "Alvaro Lopez",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12392",
+          "name": "David Lopez",
+          "role": "penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8349",
+          "name": "David Lopez Lopez",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8825",
+          "name": "Jorge Molina",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+          "name": "Rachelle Rosenberg",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+          "name": "Brian Wood",
+          "role": "writer"
+        }],
+        "returned": 8
+      },
+      "characters": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40864/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009277",
+          "name": "Domino"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011179",
+          "name": "Pixie"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 6
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40864/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92552",
+          "name": "X-Men (2010) #33",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92553",
+          "name": "Interior #92553",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40864/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40865,
+      "digitalId": 27189,
+      "title": "X-Men (2010) #32",
+      "issueNumber": 32,
+      "variantDescription": "",
+      "description": "<ul><li> Learn the secret origin of the proto-mutants\n</li><li> How long can Storm keep Cyclops from taking control of her team?</li></ul>",
+      "modified": "2014-07-09T12:54:37-0400",
+      "isbn": "",
+      "upc": "5960607193-03211",
+      "diamondCode": "MAY120709",
+      "ean": "",
+      "issn": "2162-2124",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "<ul><li> Learn the secret origin of the proto-mutants\n</li><li> How long can Storm keep Cyclops from taking control of her team?</li></ul>"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40865",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40865/x-men_2010_32?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/X-Men-32/digital-comic/27189?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=27189&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/27189?utm_campaign=apiRef&utm_source=95bcc54e672 fb808b02a7dd427dd6ad1 "
+      }],
+      "series ": {
+        "resourceURI ": "http: //gateway.marvel.com/v1/public/series/9906",
+        "name": "X-Men (2010 - 2013)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-07-18T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-06-20T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-04-08T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-07-18T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/e0/58b88076063ce",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/e0/58b88076063ce",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40865/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/10433",
+          "name": "Alvaro Lopez",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12392",
+          "name": "David Lopez",
+          "role": "penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8349",
+          "name": "David Lopez Lopez",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8825",
+          "name": "Jorge Molina",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+          "name": "Rachelle Rosenberg",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+          "name": "Brian Wood",
+          "role": "writer"
+        }],
+        "returned": 8
+      },
+      "characters": {
+        "available": 7,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40865/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009257",
+          "name": "Cyclops"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009277",
+          "name": "Domino"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011179",
+          "name": "Pixie"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 7
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40865/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92554",
+          "name": "X-Men (2010) #32",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92555",
+          "name": "Interior #92555",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40865/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40867,
+      "digitalId": 26953,
+      "title": "X-Men (2010) #31",
+      "issueNumber": 31,
+      "variantDescription": "",
+      "description": "A new race of mutants is discovered!  How does this affect the X-Men as protectors of mutantkind?",
+      "modified": "2014-07-09T12:54:36-0400",
+      "isbn": "",
+      "upc": "5960607193-03111",
+      "diamondCode": "APR120677",
+      "ean": "",
+      "issn": "2162-2124",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text": "A new race of mutants is discovered!  How does this affect the X-Men as protectors of mutantkind?"
+      }, {
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "<ul><li> Written by Brian Wood (WOLVERINE AND THE X-MEN ALPHA AND OMEGA, DMZ, Demo, Northlanders) with art by David Lopez (MYSTIC, NEW MUTANTS, Catwoman)</li><li>When a new race of mutants is discovered</li><ul>"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40867",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40867/x-men_2010_31?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase ",
+        "url ": "http: //comicstore.marvel.com/X-Men-31/digital-comic/26953?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=26953&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/26953?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9906",
+        "name": "X-Men (2010 - 2013)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-06-27T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-06-13T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-07-03T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-06-27T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/03/58b87f5031405",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/03/58b87f5031405",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40867/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/10433",
+          "name": "Alvaro Lopez",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12392",
+          "name": "David Lopez",
+          "role": "penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8349",
+          "name": "David Lopez Lopez",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8825",
+          "name": "Jorge Molina",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+          "name": "Rachelle Rosenberg",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+          "name": "Brian Wood",
+          "role": "writer"
+        }],
+        "returned": 8
+      },
+      "characters": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40867/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009277",
+          "name": "Domino"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011179",
+          "name": "Pixie"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 6
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40867/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92558",
+          "name": "X-Men (2010) #31",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92559",
+          "name": "Interior #92559",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40867/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40803,
+      "digitalId": 26838,
+      "title": "Astonishing X-Men (2004) #51",
+      "issueNumber": 51,
+      "variantDescription": "",
+      "description": "The issue everyone has been talking about! The unforgettable wedding of Northstar and Kyle Jinadu! But will their path to wedded matrimony in New York City be smooth or are there hidden dangers around the corner?",
+      "modified": "2012-06-18T15:39:44-0400",
+      "isbn": "",
+      "upc": "5960605543-05111",
+      "diamondCode": "APR120665",
+      "ean": "",
+      "issn": "1549-8638",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text": "The issue everyone has been talking about! The unforgettable wedding of Northstar and Kyle Jinadu! But will their path to wedded matrimony in New York City be smooth or are there hidden dangers around the corner ? "
+      }],
+      "resourceURI ": "http: //gateway.marvel.com/v1/public/comics/40803",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40803/astonishing_x-men_2004_51?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/Astonishing-X-Men-51/digital-comic/26838?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=26838&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/26838?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/744",
+        "name": "Astonishing X-Men (2004 - 2013)"
+      },
+      "variants": [{
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/42732",
+        "name": "Astonishing X-Men (2004) #51 (Djurdjevic Variant)"
+      }, {
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/43221",
+        "name": "Astonishing X-Men (2004) #51 (Create Your Own Wedding Variant)"
+      }],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-06-20T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-06-06T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-04-08T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-06-20T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/56e9640fd0cae",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/56e9640fd0cae",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/4fc6612c73d23",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/90/4fc6603ec9e60",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/80/4fc65f1312d59",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/40/4fc65de9995b0",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 3,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40803/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/9047",
+          "name": "Marjorie Liu",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/708",
+          "name": "Mike Perkins",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8404",
+          "name": "Dustin Weaver",
+          "role": "penciller (cover)"
+        }],
+        "returned": 3
+      },
+      "characters": {
+        "available": 9,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40803/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010370",
+          "name": "Alpha Flight"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009159",
+          "name": "Archangel"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009175",
+          "name": "Beast"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009362",
+          "name": "Iceman"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009508",
+          "name": "Kitty Pryde"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009476",
+          "name": "Northstar"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+          "name": "Wolverine"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 9
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40803/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92430",
+          "name": "Cover #92430",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92431",
+          "name": "Interior #92431",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40803/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 42732,
+      "digitalId": 0,
+      "title": "Astonishing X-Men (2004) #51 (Djurdjevic Variant)",
+      "issueNumber": 51,
+      "variantDescription": "Djurdjevic Variant ",
+      "description ": null,
+      "modified ": "2012 - 06 - 11 T14: 47: 24 - 0400 ",
+      "isbn ": "",
+      "upc ": "5960605543 - 05121 ",
+      "diamondCode ": "APR120666 ",
+      "ean ": "",
+      "issn ": "1549 - 8638 ",
+      "format ": "Comic ",
+      "pageCount ": 32,
+      "textObjects ": [],
+      "resourceURI ": "http: //gateway.marvel.com/v1/public/comics/42732",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/42732/astonishing_x-men_2004_51_djurdjevic_variant/djurdjevic_variant?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/744",
+        "name": "Astonishing X-Men (2004 - 2013)"
+      },
+      "variants": [{
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/40803",
+        "name": "Astonishing X-Men (2004) #51"
+      }, {
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/43221",
+        "name": "Astonishing X-Men (2004) #51 (Create Your Own Wedding Variant)"
+      }],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-06-20T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-06-06T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/00/4fd63c1996f06",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/00/4fd63c1996f06",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 3,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/42732/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/10288",
+          "name": "Marko Djurdjevic",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/9047",
+          "name": "Marjorie Liu",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/708",
+          "name": "Mike Perkins",
+          "role": "artist"
+        }],
+        "returned": 3
+      },
+      "characters": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/42732/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009175",
+          "name": "Beast"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009362",
+          "name": "Iceman"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009546",
+          "name": "Rogue"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+          "name": "Wolverine"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 6
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/42732/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/96191",
+          "name": "Cover #96191",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/96192",
+          "name": "Interior #96192",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/42732/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40868,
+      "digitalId": 26664,
+      "title": "X-Men (2010) #30",
+      "issueNumber": 30,
+      "variantDescription": "",
+      "description": "A new race of mutants has been discovered?  What does this mean for the X-Men?",
+      "modified": "2014-07-09T12:54:35-0400",
+      "isbn": "",
+      "upc": "5960607193-03011",
+      "diamondCode": "APR120675",
+      "ean": "",
+      "issn": "2162-2124",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text": "A new race of mutants has been discovered?  What does this mean for the X-Men?"
+      }, {
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "<ul><li> Written by Brian Wood (WOLVERINE AND THE X-MEN ALPHA AND OMEGA, DMZ, Demo, Northlanders) with art by David Lopez (MYSTIC, NEW MUTANTS, Catwoman)</li><li>When a new race of mutants is discovered</li><ul>"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40868",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40868/x-men_2010_30?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/X-Men-30/digital-comic/26664?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url ": "http: //marvel.com/digitalcomics/view.htm?iid=26664&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/26664?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9906",
+        "name": "X-Men (2010 - 2013)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-06-13T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-05-30T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-04-08T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-06-13T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/5159e161d5eec",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/5159e161d5eec",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/4fd10e0cd6484",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40868/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/10433",
+          "name": "Alvaro Lopez",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12392",
+          "name": "David Lopez",
+          "role": "penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8349",
+          "name": "David Lopez Lopez",
+          "role": "artist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8825",
+          "name": "Jorge Molina",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+          "name": "Rachelle Rosenberg",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+          "name": "Brian Wood",
+          "role": "writer"
+        }],
+        "returned": 8
+      },
+      "characters": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40868/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009277",
+          "name": "Domino"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011179",
+          "name": "Pixie"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 6
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40868/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92560",
+          "name": "X-MEN (2010) #30",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92598",
+          "name": "Interior #92598",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40868/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40859,
+      "digitalId": 26546,
+      "title": "X-Men (2010) #29",
+      "issueNumber": 29,
+      "variantDescription": "",
+      "description": "With the X-Men suffering from inner turmoil, a lost team of Skrulls infiltrates Utopia. As Pixie is discovered missing, the X-Men fear the worst.",
+      "modified": "2014-07-09T12:54:32-0400",
+      "isbn": "",
+      "upc": "5960607193-02911",
+      "diamondCode": "MAR120620",
+      "ean": "",
+      "issn": "2162-2124",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text": "With the X-Men suffering from inner turmoil, a lost team of Skrulls infiltrates Utopia. As Pixie is discovered missing, the X-Men fear the worst."
+      }, {
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "<ul><li> A lost team of Skrulls infiltrates the X-Men</li><li> Pixie is taken hostage.or did she go by choice? </li></ul>"
+      }],
+      "resourceURI ": "http: //gateway.marvel.com/v1/public/comics/40859",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40859/x-men_2010_29?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/X-Men-29/digital-comic/26546?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=26546&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/26546?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9906",
+        "name": "X-Men (2010 - 2013)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-05-30T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-05-16T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-04-08T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-05-30T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/03/5159e157e6040",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/03/5159e157e6040",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/80/4f39781be0b71",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40859/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8571",
+          "name": "Guru-eFX",
+          "role": "Colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+          "name": "Virtual Calligr",
+          "role": "Letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/585",
+          "name": "Will Conrad",
+          "role": "Inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/9647",
+          "name": "Victor Gischler",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }],
+        "returned": 6
+      },
+      "characters": {
+        "available": 9,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40859/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009277",
+          "name": "Domino"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009299",
+          "name": "Fantastic Four"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011179",
+          "name": "Pixie"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+          "name": "Spider-Man"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009705",
+          "name": "Warpath"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 9
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40859/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92542",
+          "name": "X-MEN (2010) #29",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92543",
+          "name": "Interior #92543",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40859/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 41191,
+      "digitalId": 25733,
+      "title": "Avengers Vs. X-Men (2012) #2",
+      "issueNumber": 2,
+      "variantDescription": "",
+      "description": "- As The Opening Shot Is Fired, The Avengers Storm The Beach Of Utopia, And The Phoenix Draws\nEver Nearer To Earth!\n- But Which Side Will Wolverine Fight On?\n- And What Choice Will Hope Make That Will Change The Direction And Scope Of The Conflict Dramatically?",
+      "modified": "2017-08-16T11:53:49-0400",
+      "isbn": "",
+      "upc": "5960607748-00211",
+      "diamondCode": "FEB120534",
+      "ean": "",
+      "issn": "",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "- As The Opening Shot Is Fired, The Avengers Storm The Beach Of Utopia, And The Phoenix Draws\nEver Nearer To Earth!\n- But Which Side Will Wolverine Fight On?\n- And What Choice Will Hope Make That Will Change The Direction And Scope Of The Conflict Dramatically?"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/41191",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/41191/avengers_vs_x-men_2012_2?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/Avengers-VS-X-Men-2/digital-comic/25733?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=25733&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/25733?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/15305",
+        "name": "Avengers Vs. X-Men (2012)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-04-18T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-04-04T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-04-01T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-04-18T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/10/515f1a2cbc874",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/10/515f1a2cbc874",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/90/510c307a80e3d",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/60/4f8f0b8ec6777",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/4f8f0b222802e",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/4f8f0a9247de3",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/f0/4f8dd4c8a4e7d",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/4f8dc0a3942e6",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/10/4f8dbf211f30e",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/4f8dbe039de5d",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/30/4f6b9957cc0c9",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/80/4f6b9957a808f",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/f0/4f187508e4e90",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/41191/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/11463",
+          "name": "Jason Aaron",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+          "name": "Virtual Calligr",
+          "role": "Letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12581",
+          "name": "Vc Chris Eliopoulos",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/362",
+          "name": "Scott Hanna",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/4306",
+          "name": "Laura Martin",
+          "role": "Colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/13196",
+          "name": "John Romita Jr.",
+          "role": "penciller"
+        }],
+        "returned": 6
+      },
+      "characters": {
+        "available": 13,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/41191/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+          "name": "Avengers"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+          "name": "Captain America"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009257 ",
+          "name ": "Cyclops "
+        }, {
+          "resourceURI ": "http: //gateway.marvel.com/v1/public/characters/1009310",
+          "name": "Emma Frost"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009313",
+          "name": "Gambit"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+          "name": "Iron Man"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009382",
+          "name": "Juggernaut"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009215",
+          "name": "Luke Cage"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+          "name": "Magneto"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+          "name": "Spider-Man"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 13
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/41191/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/93241",
+          "name": "AVENGERS VS. X-MEN (2012) #2",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/93242",
+          "name": "Interior #93242",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/41191/events",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/310",
+          "name": "Avengers VS X-Men"
+        }],
+        "returned": 1
+      }
+    }, {
+      "id": 40858,
+      "digitalId": 26157,
+      "title": "X-Men (2010) #27",
+      "issueNumber": 27,
+      "variantDescription": "",
+      "description": "The Marvel Universe's deadliest assassins have been sent after The Forgiven and are trying to kill Jubilee! Guest starring Lady Bullseye, The Assasin's Guild, and Lord Deathstrike.",
+      "modified": "2014-07-09T12:54:26-0400",
+      "isbn": "",
+      "upc": "5960607193-02711",
+      "diamondCode": "FEB120623",
+      "ean": "",
+      "issn": "2162-2124",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "&bull; Concluding Open Contract, The Story Of The Forgiven.\r\n&bull; The Marvel U&rsquo;s Deadliest Assassins Have Been Sent After The Forgiven&#133;And Are Trying To Kill Jubilee!\r\n&bull; Guest-Starring Lady Bullseye, The Assassin&rsquo;s Guild, And Lord Deathstrike"
+      }, {
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text": "The Marvel Universe's deadliest assassins have been sent after The Forgiven and are trying to kill Jubilee! Guest starring Lady Bullseye, The Assasin's Guild, and Lord Deathstrike."
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40858",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40858/x-men_2010_27?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/X-Men-27/digital-comic/26157?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=26157&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/26157?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9906",
+        "name": "X-Men (2010 - 2013)"
+      },
+      "variants": [{
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/42520",
+        "name": "X-Men (2010) #27 (Avengers Art Appreciation Variant)"
+      }],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-04-18T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-04-04T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2012-10-04T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-04-18T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/03/5159e140591b4",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/03/5159e140591b4",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i / mg / 6 / 80 / 4 f18509add373 ",
+        "extension ": "jpg "
+      }],
+      "creators ": {
+        "available ": 10,
+        "collectionURI ": "http: //gateway.marvel.com/v1/public/comics/40858/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8571",
+          "name": "Guru-eFX",
+          "role": "Colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+          "name": "Virtual Calligr",
+          "role": "Letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12239",
+          "name": "Guru Efx",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/13251",
+          "name": "Salva Espin",
+          "role": "penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/9647",
+          "name": "Victor Gischler",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/10928",
+          "name": "JORGE CARLOS MOLINA MANZANERO",
+          "role": "Penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8825",
+          "name": "Jorge Molina",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/1142",
+          "name": "Lorenzo Ruggiero",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+          "name": "Jeanine Schaefer",
+          "role": "editor"
+        }],
+        "returned": 10
+      },
+      "characters": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40858/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+          "name": "Deadpool"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009277",
+          "name": "Domino"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009381",
+          "name": "Jubilee"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009705",
+          "name": "Warpath"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 8
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40858/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92540",
+          "name": "X-MEN (2010) #27",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/92541",
+          "name": "Interior #92541",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40858/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40405,
+      "digitalId": 26156,
+      "title": "Avengers (2010) #25",
+      "issueNumber": 25,
+      "variantDescription": "",
+      "description": "&bull; Avx Tie-In!\r\n&bull; Captain America Has Declared War On The X-Men.\r\n&bull; The Shocking Final Storyline In The Brian Bendis Avengers Saga!",
+      "modified": "2014-07-29T08:29:19-0400",
+      "isbn": "",
+      "upc": "5960607015-02511",
+      "diamondCode": "FEB120541",
+      "ean": "",
+      "issn": "2153-988X",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "&bull; Avx Tie-In!\r\n&bull; Captain America Has Declared War On The X-Men.\r\n&bull; The Shocking Final Storyline In The Brian Bendis Avengers Saga!"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40405",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40405/avengers_2010_25?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/Avengers-25/digital-comic/26156?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=26156&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/26156?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9085",
+        "name": "Avengers (2010 - 2012)"
+      },
+      "variants ": [],
+      "collections ": [],
+      "collectedIssues ": [],
+      "dates ": [{
+        "type ": "onsaleDate ",
+        "date ": "2012 - 04 - 18 T00: 00: 00 - 0400 "
+      }, {
+        "type ": "focDate ",
+        "date ": "2012 - 04 - 04 T00: 00: 00 - 0400 "
+      }, {
+        "type ": "unlimitedDate ",
+        "date ": "2012 - 10 - 16 T00: 00: 00 - 0400 "
+      }, {
+        "type ": "digitalPurchaseDate ",
+        "date ": "2012 - 04 - 18 T00: 00: 00 - 0400 "
+      }],
+      "prices ": [{
+        "type ": "printPrice ",
+        "price ": 3.99
+      }, {
+        "type ": "digitalPurchasePrice ",
+        "price ": 1.99
+      }],
+      "thumbnail ": {
+        "path ": "http: //i.annihil.us/u/prod/marvel/i/mg/d/70/4f6b59c68fdf5",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/a0/4f6b5acc04da2",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/4f6b5acc46226",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/60/4f6b5acc02ad0",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/70/4f6b59c68fdf5",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40405/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/1004",
+          "name": "Daniel Acuna",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+          "name": "Brian Michael Bendis",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+          "name": "Tom Brevoort",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+          "name": "Virtual Calligr",
+          "role": "Letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/362",
+          "name": "Scott Hanna",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/426",
+          "name": "Jason Keith",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+          "name": "Cory Petit",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5125",
+          "name": "Walter Simonson",
+          "role": "penciller"
+        }],
+        "returned": 8
+      },
+      "characters": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40405/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+          "name": "Avengers"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+          "name": "Captain America"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009338",
+          "name": "Hawkeye"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+          "name": "Iron Man"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011360",
+          "name": "Red Hulk"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+          "name": "Thor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 8
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40405/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91632",
+          "name": "AVENGERS (2010) #25",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91633",
+          "name": "Interior #91633",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40405/events",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/310",
+          "name": "Avengers VS X-Men"
+        }],
+        "returned": 1
+      }
+    }, {
+      "id": 40163,
+      "digitalId": 26079,
+      "title": "Uncanny X-Men (2011) #10",
+      "issueNumber": 10,
+      "variantDescription": "",
+      "description": "Unit, a genocidal fugitive from space, lands on Earth looking for the Mutant Messiah. The X-Men must take arms against the killer, but why is Hope placed in his sights?",
+      "modified": "2013-05-14T15:41:51-0400",
+      "isbn": "",
+      "upc": "5960607689-01011",
+      "diamondCode": "FEB120618",
+      "ean": "",
+      "issn": "2164-6155",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "&bull; The X-Men Vs. Unit, The Galactic Genocidal Fugitive!\r\n&bull; What Is Behind Unit&rsquo;s Sinister Interest In Hope?\r\n&bull; Building Towards Avx!"
+      }, {
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text ": "Unit, a genocidal fugitive from space, lands on Earth looking for the Mutant Messiah.The X - Men must take arms against the killer, but why is Hope placed in his sights ? "
+      }],
+      " resourceURI ": " http : //gateway.marvel.com/v1/public/comics/40163",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40163/uncanny_x-men_2011_10?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/Uncanny-X-Men-10/digital-comic/26079?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=26079&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/26079?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/14914",
+        "name": "Uncanny X-Men (2011 - 2012)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-04-11T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-03-28T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-04-01T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-04-11T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/51895d6d1a2dc",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/51895d6d1a2dc",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 7,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40163/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8571",
+          "name": "Guru-eFX",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+          "name": "Virtual Calligr",
+          "role": "Letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8901",
+          "name": "Kieron Gillen",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+          "name": "Nick Lowe",
+          "role": "editor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/101",
+          "name": "Carlos Pacheco",
+          "role": "penciller (cover)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/480",
+          "name": "Cam Smith",
+          "role": "inker"
+        }],
+        "returned": 7
+      },
+      "characters": {
+        "available": 7,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40163/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009257",
+          "name": "Cyclops"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011428",
+          "name": "Hope Summers"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+          "name": "Magneto"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009466",
+          "name": "Namor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 7
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40163/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91123",
+          "name": "UNCANNY X-MEN (2011) #10",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91124",
+          "name": "Interior #91124",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40163/events",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/310",
+          "name": "Avengers VS X-Men"
+        }],
+        "returned": 1
+      }
+    }, {
+      "id": 35241,
+      "digitalId": 26080,
+      "title": "New Avengers (2010) #24",
+      "issueNumber": 24,
+      "variantDescription": "",
+      "description": "AVX Tie-In!  The New Avengers have received the call to duty by Captain America to go to war against the X-Men.  Both an Avenger and an X-Man, Wolverine will be forced to choose a side.",
+      "modified ": "2016 - 06 - 30 T17: 05: 55 - 0400 ",
+      "isbn ": "",
+      "upc ": "5960607247 - 02411 ",
+      "diamondCode ": "",
+      "ean ": "",
+      "issn ": "0274 - 5240 ",
+      "format ": "Comic ",
+      "pageCount ": 32,
+      "textObjects ": [{
+        "type ": "issue_preview_text ",
+        "language ": "en - us ",
+        "text ": "AVX Tie - In!The New Avengers have received the call to duty by Captain America to go to war against the X - Men.Both an Avenger and an X - Man, Wolverine will be forced to choose a side."
+      }],
+      "resourceURI ": "http: //gateway.marvel.com/v1/public/comics/35241",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/35241/new_avengers_2010_24?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/New-Avengers-24/digital-comic/26080?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=26080&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/26080?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/9922",
+        "name": "New Avengers (2010 - 2012)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-04-09T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-04-16T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2012-10-11T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-04-11T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/4f183f642d472",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/e0/4f60e49017b89",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/10/4f60e3dfba2cf",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/d0/4f60e29b5e790",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4f60e18537ce8",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/4f183f642d472",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 5,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/35241/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+          "name": "Brian Michael Bendis",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+          "name": "Virtual Calligr",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/552",
+          "name": "Wade Von Grawbadger",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/192",
+          "name": "Stuart Immonen",
+          "role": "penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/4306",
+          "name": "Laura Martin",
+          "role": "colorist"
+        }],
+        "returned": 5
+      },
+      "characters": {
+        "available": 18,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/35241/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+          "name": "Black Panther"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009189",
+          "name": "Black Widow"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+          "name": "Captain America"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010338",
+          "name": "Captain Marvel (Carol Danvers)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009257",
+          "name": "Cyclops"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009282",
+          "name": "Doctor Strange"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009310",
+          "name": "Emma Frost"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009338",
+          "name": "Hawkeye"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+          "name": "Iron Man"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009538",
+          "name": "Iron Patriot (James Rhodes)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009378",
+          "name": "Jessica Jones "
+        }, {
+          "resourceURI ": "http: //gateway.marvel.com/v1/public/characters/1009215",
+          "name": "Luke Cage"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011360",
+          "name": "Red Hulk"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+          "name": "Spider-Man"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009608",
+          "name": "Spider-Woman (Jessica Drew)"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009697",
+          "name": "Vision"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+          "name": "Wolverine"
+        }],
+        "returned": 18
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/35241/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/77824",
+          "name": "Cover #77824",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/77825",
+          "name": "Interior #77825",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/35241/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40156,
+      "digitalId": 25829,
+      "title": "Uncanny X-Men (2011) #9",
+      "issueNumber": 9,
+      "variantDescription": "",
+      "description": "Prison break! Featuring the Avengers!",
+      "modified": "2013-05-14T15:41:51-0400",
+      "isbn": "",
+      "upc": "5960607689-00911",
+      "diamondCode": "",
+      "ean": "",
+      "issn": "",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "&rdquo;,,&rdquo;"
+      }, {
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text": "Prison break! Featuring the Avengers!"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40156",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40156/uncanny_x-men_2011_9?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/Uncanny-X-Men-9/digital-comic/25829?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=25829&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/25829?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/14914",
+        "name": "Uncanny X-Men (2011 - 2012)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-03-21T00:00:00-0400"
+      }, {
+        "type": "focDate",
+        "date": "2012-03-12T00:00:00-0400"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-04-01T00:00:00-0400"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-03-21T00:00:00-0400"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/10/51895d742cf28",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/10/51895d742cf28",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/80/515c39e55e33c",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/50/4f5a2ef89f268",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/10/4f5a2ef8d919d",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/70/4f5a2ef889367",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/e0/4f5a2ef8807d5",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/b0/4f5a2ef886601",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40156/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/12239",
+          "name": "Guru Efx",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8901",
+          "name": "Kieron Gillen",
+          "role": "writer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators / 4300 ",
+          "name ": "Nick Lowe ",
+          "role ": "editor "
+        }, {
+          "resourceURI ": "http: //gateway.marvel.com/v1/public/creators/101",
+          "name": "Carlos Pacheco",
+          "role": "penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/480",
+          "name": "Cam Smith",
+          "role": "inker"
+        }],
+        "returned": 6
+      },
+      "characters": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40156/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009257",
+          "name": "Cyclops"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009310",
+          "name": "Emma Frost"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011428",
+          "name": "Hope Summers"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+          "name": "Magneto"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009466",
+          "name": "Namor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 8
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40156/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91109",
+          "name": "UNCANNY X-MEN (2011) #9",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91110",
+          "name": "Interior #91110",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40156/events",
+        "items": [],
+        "returned": 0
+      }
+    }, {
+      "id": 40162,
+      "digitalId": 25713,
+      "title": "Uncanny X-Men (2011) #8",
+      "issueNumber": 8,
+      "variantDescription": "",
+      "description": "Prison break! Featuring the Avengers!",
+      "modified": "2014-06-10T12:52:08-0400",
+      "isbn": "",
+      "upc": "5960607689-00811",
+      "diamondCode": "",
+      "ean": "",
+      "issn": "",
+      "format": "Comic",
+      "pageCount": 32,
+      "textObjects": [{
+        "type": "issue_solicit_text",
+        "language": "en-us",
+        "text": "- Prison Break! <br>\n- Featuring The Avengers! <br>"
+      }, {
+        "type": "issue_preview_text",
+        "language": "en-us",
+        "text": "Prison break! Featuring the Avengers!"
+      }],
+      "resourceURI": "http://gateway.marvel.com/v1/public/comics/40162",
+      "urls": [{
+        "type": "detail",
+        "url": "http://marvel.com/comics/issue/40162/uncanny_x-men_2011_8?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "purchase",
+        "url": "http://comicstore.marvel.com/Uncanny-X-Men-8/digital-comic/25713?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "reader",
+        "url": "http://marvel.com/digitalcomics/view.htm?iid=25713&utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }, {
+        "type": "inAppLink",
+        "url": "https://applink.marvel.com/issue/25713?utm_campaign=apiRef&utm_source=95bcc54e672fb808b02a7dd427dd6ad1"
+      }],
+      "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/14914",
+        "name": "Uncanny X-Men (2011 - 2012)"
+      },
+      "variants": [],
+      "collections": [],
+      "collectedIssues": [],
+      "dates": [{
+        "type": "onsaleDate",
+        "date": "2012-03-07T00:00:00-0500"
+      }, {
+        "type": "focDate",
+        "date": "2012-02-13T00:00:00-0500"
+      }, {
+        "type": "unlimitedDate",
+        "date": "2013-02-25T00:00:00-0500"
+      }, {
+        "type": "digitalPurchaseDate",
+        "date": "2012-03-07T00:00:00-0500"
+      }],
+      "prices": [{
+        "type": "printPrice",
+        "price": 3.99
+      }, {
+        "type": "digitalPurchasePrice",
+        "price": 1.99
+      }],
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/30/51895c19e6914",
+        "extension": "jpg"
+      },
+      "images": [{
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/90/56bca319ee74e",
+        "extension": "jpg"
+      }, {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/30/51895c19e6914",
+        "extension": "jpg"
+      }],
+      "creators": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40162/creators",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8571",
+          "name": "Guru-eFX",
+          "role": "colorist"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+          "name": "Vc Joe Caramagna",
+          "role": "letterer"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/8901",
+          "name": "Kieron Gillen",
+          "role": "writer"
+        }, {
+          "resourceURI ": "http: //gateway.marvel.com/v1/public/creators/425",
+          "name": "Greg Land",
+          "role": "penciller"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/616",
+          "name": "Jay Leisten",
+          "role": "inker"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+          "name": "Nick Lowe",
+          "role": "editor"
+        }],
+        "returned": 6
+      },
+      "characters": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40162/characters",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+          "name": "Colossus"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009257",
+          "name": "Cyclops"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011428",
+          "name": "Hope Summers"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+          "name": "Magneto"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009466",
+          "name": "Namor"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009512",
+          "name": "Psylocke"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+          "name": "Storm"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+          "name": "X-Men"
+        }],
+        "returned": 8
+      },
+      "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40162/stories",
+        "items": [{
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91121",
+          "name": "UNCANNY X-MEN (2011) #8",
+          "type": "cover"
+        }, {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91122",
+          "name": "Interior #91122",
+          "type": "interiorStory"
+        }],
+        "returned": 2
+      },
+      "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/40162/events",
+        "items": [],
+        "returned": 0
+      }
+    }]
+  }
+}

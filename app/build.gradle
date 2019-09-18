@@ -1,56 +1,81 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.0"
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration["compileSdkVersion"]
+    buildToolsVersion globalConfiguration["buildToolsVersion"]
     defaultConfig {
-        applicationId "com.malenalbc.superherotest"
-        minSdkVersion 14
-        targetSdkVersion 24
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        jackOptions {
-            enabled true
+        applicationId globalConfiguration["applicationId"]
+        minSdkVersion globalConfiguration["minSdkVersion"]
+        targetSdkVersion globalConfiguration["targetSdkVersion"]
+        versionCode globalConfiguration["versionCode"]
+        versionName globalConfiguration["versionName"]
+        testInstrumentationRunner globalConfiguration["testInstrumentationRunner"]
+    }
+
+    sourceSets {
+        // Reference data's test classes manually so we can use them in app's tests
+        // https://stackoverflow.com/a/39868674/4328579
+        androidTest {
+            java.srcDir project(':data').file("src/androidTest/java")
+        }
+        test {
+            java.srcDir project(':data').file("src/test/java")
         }
     }
+
+    testOptions {
+        // We tell Gradle to return default values for calls which are not mocked.
+        unitTests.returnDefaultValues = true
+    }
+
     buildTypes {
+        debug {
+            applicationIdSuffix '.debug'
+            debuggable true
+            minifyEnabled false
+        }
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
-    compile "com.android.support:support-v4:$rootProject.supportLibraryVersion"
-    compile "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
-    compile "com.android.support:cardview-v7:$rootProject.supportLibraryVersion"
-    compile "com.android.support:design:$rootProject.supportLibraryVersion"
-    compile 'com.squareup.picasso:picasso:2.5.2'
+    api project(':data')
 
-    compile 'com.google.code.gson:gson:2.6.2'
-    compile 'com.squareup.retrofit2:retrofit:2.1.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.3.0'
+    def dependencies = rootProject.ext
 
-    compile 'io.reactivex:rxjava:1.1.6'
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.appcompat:appcompat:${dependencies.appCompat}"
+    implementation "androidx.core:core-ktx:${dependencies.androidXCore}"
+    implementation "androidx.constraintlayout:constraintlayout:${dependencies.constraintLayout}"
+    implementation "com.google.android.material:material:${dependencies.material}"
 
-    testCompile 'junit:junit:4.12'
-    testCompile "org.mockito:mockito-core:2.0.87-beta"
-    testCompile('com.squareup.okhttp:mockwebserver:2.5.0') {
-        exclude module: 'okio'
-    }
+    implementation "androidx.lifecycle:lifecycle-extensions:${dependencies.architecture}"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${dependencies.architecture}"
 
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+    api "com.google.dagger:dagger:${dependencies.dagger}"
+    kapt "com.google.dagger:dagger-compiler:${dependencies.dagger}"
+
+    implementation "io.reactivex.rxjava2:rxandroid:${dependencies.rxAndroid}"
+    implementation "com.squareup.picasso:picasso:${dependencies.picasso}"
+
+
+    // TESTING
+    testImplementation "androidx.test.ext:junit:${dependencies.jUnit}"
+    testImplementation "io.mockk:mockk:${dependencies.mockk}"
+    kaptTest "com.google.dagger:dagger-compiler:${dependencies.dagger}"
+
+    androidTestImplementation "androidx.test.ext:junit:${dependencies.jUnit}"
+    androidTestImplementation "androidx.test:runner:${dependencies.testRunner}"
+    androidTestImplementation "androidx.test:rules:${dependencies.testRules}"
+    androidTestImplementation "androidx.test.espresso:espresso-core:${dependencies.espresso}"
+    androidTestImplementation "io.mockk:mockk-android:${dependencies.mockk}"
+    androidTestImplementation "com.squareup.okhttp3:mockwebserver:${dependencies.okHttp}"
 }

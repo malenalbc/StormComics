@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration["compileSdkVersion"]
+    buildToolsVersion globalConfiguration["buildToolsVersion"]
+
+    defaultConfig {
+        minSdkVersion globalConfiguration["minSdkVersion"]
+        targetSdkVersion globalConfiguration["targetSdkVersion"]
+        versionCode globalConfiguration["versionCode"]
+        versionName globalConfiguration["versionName"]
+
+        testInstrumentationRunner globalConfiguration["testInstrumentationRunner"]
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    testOptions {
+        // We tell Gradle to return default values for calls which are not mocked.
+        unitTests.returnDefaultValues = true
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    def dependencies = rootProject.ext
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation "io.reactivex.rxjava2:rxjava:${dependencies.rxJava}"
+
+    api "com.squareup.retrofit2:retrofit:${dependencies.retrofit}"
+    api "com.squareup.retrofit2:adapter-rxjava2:${dependencies.retrofit}"
+    api "com.squareup.retrofit2:converter-gson:${dependencies.retrofit}"
+    api "com.squareup.okhttp3:logging-interceptor:${dependencies.okHttp}"
+
+    api "com.google.dagger:dagger:${dependencies.dagger}"
+    kapt "com.google.dagger:dagger-compiler:${dependencies.dagger}"
+
+    // TESTING
+    testImplementation "androidx.test.ext:junit:${dependencies.jUnit}"
+    testImplementation "io.mockk:mockk:${dependencies.mockk}"
+    kaptTest "com.google.dagger:dagger-compiler:${dependencies.dagger}"
+    testImplementation "com.squareup.okhttp3:mockwebserver:${dependencies.okHttp}"
+
+}
